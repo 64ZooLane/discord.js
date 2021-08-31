@@ -77,7 +77,7 @@
   },
   "devDependencies": {
     "@types/node": "^9.4.6",
-    "discord.js-docgen": "discordjs/docgen",
+    "discord.js-docgen": "github:discordjs/docgen",
     "eslint": "^5.4.0",
     "parallel-webpack": "^2.3.0",
     "tslint": "^3.15.1",
@@ -123,5 +123,9 @@
     "src/client/voice/VoiceConnection.js": false,
     "src/client/voice/VoiceUDPClient.js": false,
     "src/client/voice/VoiceWebSocket.js": false
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
